@@ -1,0 +1,8 @@
+{
+  "*.ts": [
+    "standard --fix",
+    "npm run test:cucumber",
+    "npm run test:staged  -- -- src",
+    "git add"
+  ]
+}
